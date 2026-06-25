@@ -1,24 +1,1093 @@
-<!DOCTYPE html>
-<html lang="en">
+
+  <!doctype html>
+<html lang="en" class="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Thumbnail Downloader</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<div class="container">
-    <h1>YouTube Thumbnail Downloader</h1>
+      <meta name="robots" content="index, follow">
+  
+  <title>Free Online Video Downloader - SaveFrom.net</title>
+  <meta name="description" content="Download videos from popular platforms with SaveFrom.net, the leading free online video downloader. Easily save videos in various formats and resolutions. Start downloading now!">
+    <meta property="og:type" content="website" />
+  <meta property="og:title" content="Free Online Video Downloader - SaveFrom.net" />
+  <meta property="og:description" content="Download videos from popular platforms with SaveFrom.net, the leading free online video downloader. Easily save videos in various formats and resolutions. Start downloading now!" />
+  <meta property="og:image" content="https://en1.savefrom.net/img/extension/icon_128_2.png" />
+  <meta property="og:url" content="https://en1.savefrom.net/18CX/" />
+  <meta property="og:locale" content="en" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Free Online Video Downloader - SaveFrom.net" />
+  <meta name="twitter:description" content="Download videos from popular platforms with SaveFrom.net, the leading free online video downloader. Easily save videos in various formats and resolutions. Start downloading now!" />
+  <meta name="twitter:image" content="https://en1.savefrom.net/img/extension/icon_128_2.png" />
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no" name="viewport">
+  <script src="https://browser.sentry-cdn.com/7.119.0/bundle.min.js" crossorigin="anonymous"></script>
+<script>
+  var percent = 0.005;
+  if (Math.random() < percent) {
+    Sentry.init({
+      dsn: 'https://c2d673d86eef69120dfaf4789c7aebaf@sentry.multitool.cloud/15',
+      sendDefaultPii: true,
+    });
+    window.__sentry = Sentry;
+  }
+</script>
+  <script src="/build/js/runtime.js?h=1debbb90.js"></script><script src="/build/js/vendor.js?h=d559d331.js"></script><script src="/build/js/openreplay.js?h=5cab5caa.js"></script>  <script>
+    document.documentElement.className +=
+      (("ontouchstart" in document.documentElement) ? ' touch' : ' no-touch');
+  </script>
+  <link rel="preload" href="/font/fonts.css" as="style">
+  <link rel="stylesheet" href="/font/fonts.css" media="print" onload="this.media='all'" >
 
-    <input id="videoUrl" type="text" placeholder="Paste YouTube link here">
+      <link rel="stylesheet" href="/build/css/styles.css?h=ecbfa87e45">
+  
 
-    <button onclick="getThumbnail()">Get Thumbnail</button>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="image_src" href="/img/icon_100.png">
 
-    <div id="result"></div>
+  <script>
+    var _isProd = 1;
+  </script>
+
+<link rel="alternate" hreflang="ar" href="https://ar.savefrom.net/250rm/">
+<link rel="alternate" hreflang="ar-ae" href="https://ar.savefrom.net/250rm/">
+<link rel="alternate" hreflang="ar-sa" href="https://ar.savefrom.net/250rm/">
+<link rel="alternate" hreflang="de" href="https://de.savefrom.net/192ji/">
+<link rel="alternate" hreflang="de-at" href="https://de.savefrom.net/192ji/">
+<link rel="alternate" hreflang="de-ch" href="https://de.savefrom.net/192ji/">
+<link rel="alternate" hreflang="en" href="https://en1.savefrom.net/18CX/">
+<link rel="alternate" hreflang="en-au" href="https://en1.savefrom.net/18CX/">
+<link rel="alternate" hreflang="en-bd" href="https://en1.savefrom.net/18CX/">
+<link rel="alternate" hreflang="en-br" href="https://en1.savefrom.net/18CX/">
+<link rel="alternate" hreflang="en-ca" href="https://en1.savefrom.net/18CX/">
+<link rel="alternate" hreflang="en-co" href="https://en1.savefrom.net/18CX/">
+<link rel="alternate" hreflang="en-gb" href="https://en1.savefrom.net/18CX/">
+<link rel="alternate" hreflang="en-id" href="https://en1.savefrom.net/18CX/">
+<link rel="alternate" hreflang="en-ie" href="https://en1.savefrom.net/18CX/">
+<link rel="alternate" hreflang="en-in" href="https://en1.savefrom.net/18CX/">
+<link rel="alternate" hreflang="en-mx" href="https://en1.savefrom.net/18CX/">
+<link rel="alternate" hreflang="en-my" href="https://en1.savefrom.net/18CX/">
+<link rel="alternate" hreflang="en-nz" href="https://en1.savefrom.net/18CX/">
+<link rel="alternate" hreflang="en-pe" href="https://en1.savefrom.net/18CX/">
+<link rel="alternate" hreflang="en-ph" href="https://en1.savefrom.net/18CX/">
+<link rel="alternate" hreflang="en-pk" href="https://en1.savefrom.net/18CX/">
+<link rel="alternate" hreflang="en-us" href="https://en1.savefrom.net/18CX/">
+<link rel="alternate" hreflang="en-za" href="https://en1.savefrom.net/18CX/">
+<link rel="alternate" hreflang="es" href="https://es.savefrom.net/266EF/">
+<link rel="alternate" hreflang="es-ar" href="https://es.savefrom.net/266EF/">
+<link rel="alternate" hreflang="es-cl" href="https://es.savefrom.net/266EF/">
+<link rel="alternate" hreflang="es-co" href="https://es.savefrom.net/266EF/">
+<link rel="alternate" hreflang="es-es" href="https://es.savefrom.net/266EF/">
+<link rel="alternate" hreflang="es-mx" href="https://es.savefrom.net/266EF/">
+<link rel="alternate" hreflang="es-pe" href="https://es.savefrom.net/266EF/">
+<link rel="alternate" hreflang="fr" href="https://fr.savefrom.net/351Dr/">
+<link rel="alternate" hreflang="fr-be" href="https://fr.savefrom.net/351Dr/">
+<link rel="alternate" hreflang="fr-ca" href="https://fr.savefrom.net/351Dr/">
+<link rel="alternate" hreflang="fr-ch" href="https://fr.savefrom.net/351Dr/">
+<link rel="alternate" hreflang="hi" href="https://hi.savefrom.net/214RE/">
+<link rel="alternate" hreflang="hi-in" href="https://hi.savefrom.net/214RE/">
+<link rel="alternate" hreflang="id" href="https://id.savefrom.net/253Fi/">
+<link rel="alternate" hreflang="id-id" href="https://id.savefrom.net/253Fi/">
+<link rel="alternate" hreflang="id-my" href="https://id.savefrom.net/253Fi/">
+<link rel="alternate" hreflang="it" href="https://it3.savefrom.net/9Nx/">
+<link rel="alternate" hreflang="it-ch" href="https://it3.savefrom.net/9Nx/">
+<link rel="alternate" hreflang="ja" href="https://ja.savefrom.net/194jz/">
+<link rel="alternate" hreflang="ko" href="https://ko.savefrom.net/229au/">
+<link rel="alternate" hreflang="pl" href="https://pl.savefrom.net/179yr/">
+<link rel="alternate" hreflang="pt" href="https://pt1.savefrom.net/6Be/">
+<link rel="alternate" hreflang="pt-br" href="https://pt1.savefrom.net/6Be/">
+<link rel="alternate" hreflang="pt-pt" href="https://pt1.savefrom.net/6Be/">
+<link rel="alternate" hreflang="ru" href="https://ru.savefrom.net/246rR/">
+<link rel="alternate" hreflang="ru-az" href="https://ru.savefrom.net/246rR/">
+<link rel="alternate" hreflang="ru-ro" href="https://ru.savefrom.net/246rR/">
+<link rel="alternate" hreflang="ru-ru" href="https://ru.savefrom.net/246rR/">
+<link rel="alternate" hreflang="th" href="https://th.savefrom.net/237oh/">
+<link rel="alternate" hreflang="tr" href="https://tr.savefrom.net/256Pa/">
+<link rel="alternate" hreflang="uk" href="https://uk.savefrom.net/223NZ/">
+<link rel="alternate" hreflang="vi" href="https://vi.savefrom.net/251yN/">
+<link rel="alternate" hreflang="zh" href="https://zh.savefrom.net/267ZQ/">
+<link rel="alternate" hreflang="zh-cn" href="https://zh.savefrom.net/267ZQ/">
+<link rel="alternate" hreflang="zh-tw" href="https://zh.savefrom.net/267ZQ/">
+<link rel="alternate" hreflang="x-default" href="https://en1.savefrom.net/18CX/">
+<link rel="canonical" href="https://en1.savefrom.net/18CX/">
+
+   </head>
+<body class="search-panel">
+
+  <!--Header-->
+  <header class="header header_v2">
+    <div class="page-width-inner g-row_inline">
+      <div class="header__left g-col">
+        <span class="menu-btn menu-btn_v2"></span>
+        <a name="logo" class="logo" >Savefrom.net</a>
+      </div>
+              <nav id="nav_top" class="g-col c9">
+          <div class="nav-top-2 right">
+                                                      <a href="https://en1.savefrom.net/1-youtube-video-downloader-19uO/" class="nav-top-2__item">YouTube</a>
+                                                        <a href="https://en1.savefrom.net/9-how-to-download-facebook-video-8GJ.html" class="nav-top-2__item">Facebook</a>
+                                                        <a href="https://en1.savefrom.net/11Qc/download-from-instagram" class="nav-top-2__item">Instagram</a>
+                                                        <a href="https://en1.savefrom.net/14sU/download-from-tiktok" class="nav-top-2__item">TikTok</a>
+                                                        <a href="https://en1.savefrom.net/100-how-to.html" class="nav-top-2__item">How to</a>
+                                                        <a href="https://en1.savefrom.net/1OD/user.php?vid=388" class="nav-top-2__item">Install</a>
+                                    </div>
+        </nav>
+          </div>
+  </header>
+  <div class="top-banner-wrapper"></div>
+  <style>
+    @media only screen and (max-width: 1024px) {
+      .top-banner-wrapper {
+        min-height: 120px;
+        width: 100%;
+        position: relative;
+        background-image: url('/img/icon_100.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: auto;
+      }
+    }
+  </style>
+
+<div id="main" class="main-block main-block_v2">
+    <noscript>
+    <div class="wrapper"><p class="javascript-error">SaveFrom.net uses Javascript to display some content. Please enable Javascript in your browser and reload this page.</p></div>
+  </noscript><div class="downloader-block">
+  <div class="open-link-form-all-block open-link-form-old">
+    <div class="main-form-box">
+      <div class="main-form-box-left">
+        <div id="link-form-old-cont">
+                  <div class="downloader-2 downloader-2-part1">
+          <!--main form-->
+          <form action="/savefrom.php" method="POST" class="sf-form link-form" onsubmit="return sf.checkForm(event);" target="sf_frame" id="sf_form">
+            <div class="form-block">
+              <div class="l-box">
+                <div class="tarea-wrap">
+                  <input type="text" name="sf_url" value="" autofocus placeholder="Paste your video link here" id="sf_url" onfocus="if(this.value && this.select){this.select()}">
+                  <a href="#" class="clear-btn"></a>
+                </div>
+              </div>
+              <div class="r-box">
+                <button type="submit" name="sf_submit" id="sf_submit" class="submit" aria-label="Search">Download</button>
+              </div>
+            </div>
+            <div class="services clearfix"></div>
+            <input type="hidden" name="new" value="2">
+            <input type="hidden" name="lang" value="en">
+                        <input type="hidden" name="app" value="">
+            <div class="terms__string">By using our service you accept our <a href="https://en1.savefrom.net/1/terms.html" rel="nofollow">Terms of Service</a> and <a href="https://en1.savefrom.net/1/privacy-policy.html" rel="nofollow" target="_blank">Privacy Policy</a></div>
+          </form>
+          <!--/main form-->
+
+          <iframe name="sf_frame" id="sf_frame" width="100" height="150" style="display: none;"></iframe>
+        </div>
+                      <div class="main-form__wrapper" style="visibility: hidden">
+            <div class="main-form__watch main-form__watch_show">
+              <img src="/img/main/btnPlay.svg" alt="">
+              <button class="main-form__button" type="button">How to download?</button>
+              <span>Watch the tutorial</span>
+            </div>
+            <div class="main-form__video" >
+              <video width="auto" height="auto" poster="/img/mainForm/search-panel-img.png" playsinline loop muted controls class="search-result-video">
+                <source src="/img/mainForm/search-panel-video.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+                  </div>
+      </div>
+      <div class="main-form-box-right" style="display:none"></div>
+    </div>
+  </div>
+
+  
+<div class="downloader-2 downloader-2-part2">
+  <div id="sf_indicator_box" style="display: none;"></div>
+
+  <div id="sf_multi_form_box"></div>
+  <div id="sf_multi_result"></div>
+  <!--result-->
+  <div id="sf_result">
+
+  </div>
+  <!--/result-->
+
+</div>
+<div class="norton">
+  <p>Scanned by</p>
+  <img alt="Norton" src="/img/norton.svg" width="22" height="22">
+  <p>Norton<sup>TM</sup> Safe Web</p>
+</div>
+<div id="modal-container" class="modal-container center-popup-cont">
+  <div class="shade"></div>
+  <div class="popup-content">
+    <div class="modal-text-cont-for-js"></div>
+    <div class="close-modal close-modal-icon"></div>
+  </div>
 </div>
 
-<script src="script.js"></script>
+<div id="output-dialog" class="a11y-dialog" aria-hidden="true">
+  <div class="a11y-dialog-overlay" data-a11y-dialog-hide></div>
+  <div role="document" class="a11y-dialog-content">
+    <button type="button" class="a11y-dialog-close" data-a11y-dialog-hide>&times;</button>
+    <div class="a11y-dialog-content-for-js"></div>
+  </div>
+</div>
 
+
+
+
+</div>
+
+
+  <script type="application/ld+json">
+              {
+                "@context": "https://schema.org",
+                "@type": "VideoObject",
+                "name": "Free Online Video Downloader - SaveFrom.net",
+                "description": "Download videos from popular platforms with SaveFrom.net, the leading free online video downloader. Easily save videos in various formats and resolutions. Start downloading now!",
+                "thumbnailUrl": [
+                  "https://en1.savefrom.net/img/main/howWatch.png"
+                 ],
+                "uploadDate": "2024-01-01T08:00:00+08:00",
+                "dateModified": "2026-06-25T08:00:00+08:00",
+                "duration": "PT0M11S",
+                "contentUrl": "https://savefrom.net/img/mainForm/search-panel-video.mp4",
+                "embedUrl": "https://en1.savefrom.net/18CX/"              }
+  </script>
+
+   <!--    </div>/wrapper-->
+   <div class="install-now" id="js-install-now"></div>
+     <div class="wrapper wrapper-after-output">
+       <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://en1.savefrom.net/18CX/"
+  },
+  "headline": "Free Online Video Downloader - SaveFrom.net",
+  "description": "Download videos from popular platforms with SaveFrom.net, the leading free online video downloader. Easily save videos in various formats and resolutions. Start downloading now!",
+  "image": "https://en1.savefrom.net/img/logo_small2.svg",
+  "author": {
+    "@type": "Organization",
+    "name": "SaveFrom.net"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SaveFrom.net",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://en1.savefrom.net/img/logo_small2.svg"
+    }
+  },
+  "datePublished": "2024-01-05T00:00:00+00:00",
+  "dateModified": "2026-06-24T10:46:54+00:00",
+  "inLanguage": "en"
+}
+</script><div id="ox7" class="ox7">
+  <div class="ox7-title">Advertising</div>
+  <div class="ox7-content"></div>
+</div>
+
+       <div style="display:flex;align-items:center;justify-content:center;gap:4px;font-size:14px;color:#555;margin:8px 0 14px;line-height:1.4;flex-wrap:wrap;">
+  <span style="color:#f5a623;font-size:16px;letter-spacing:1px;" aria-hidden="true">★★★★★</span>
+  <strong style="color:#333;font-weight:700;">4.8</strong><span style="color:#999;">/5</span>
+  <span style="color:#ccc;">&nbsp;·&nbsp;</span>
+  <span style="color:#777;">54,989&nbsp;reviews</span>
+</div>
+<div class="site-info-tabs">
+  <div>
+    
+  <nav class="main-supported-services">
+    <ul class="supported-services_v3 supported-services important-services"><li class="service-facebook_com"><a href="https://en1.savefrom.net/9-how-to-download-facebook-video-8GJ.html" class="main-favicon icon-facebook_com">facebook.com</a></li><li class="service-instagram_com"><a href="/11Qc/download-from-instagram" class="main-favicon icon-instagram_com">instagram.com</a></li><li class="service-youtube_com"><a href="https://en1.savefrom.net/1-youtube-video-downloader-19uO/" class="main-favicon icon-youtube_com">youtube.com</a></li><li class="service-tiktok_com"><a href="/14sU/download-from-tiktok" class="main-favicon icon-tiktok_com">tiktok.com</a></li></ul><div class="other-services">
+                <p class="supported-services-header">All resources</p>
+                <ul class="supported-services_v3 supported-services other-services"><li class="service-dailymotion_com"><a href="https://en1.savefrom.net/10-how-to-download-dailymotion-video-2YB.html" class="main-favicon icon-dailymotion_com">dailymotion.com</a></li><li class="service-vimeo_com"><a href="https://en1.savefrom.net/11-how-to-download-vimeo-video-1.html" class="main-favicon icon-vimeo_com">vimeo.com</a></li><li class="service-vk_com"><a href="https://en1.savefrom.net/7-how-to-download-vk-music-videos-photos-5Sw.html" class="main-favicon icon-vk_com">vk.com</a></li><li class="service-tiktok_com"><a href="/14sU/download-from-tiktok" class="main-favicon icon-tiktok_com">tiktok.com</a></li><li class="service-reddit_com"><a href="/10ka/reddit-video-downloader" class="main-favicon icon-reddit_com">reddit.com</a></li><li class="service-threads"><a href="https://en1.savefrom.net/22-threads-downloader-6xh.html" class="main-favicon icon-threads">Threads</a></li><li class="service-xiaohongshu-video-downloader"><a href="https://en1.savefrom.net/106-xiaohongshu-video-downloader.html" class="main-favicon icon-xiaohongshu-video-downloader">xiaohongshu.com</a></li><li class="service-convert-to-mp4"><a href="https://en1.savefrom.net/107-convert-to-mp4.html" class="main-favicon icon-convert-to-mp4">MP4 Converter</a></li><li class="service-convert-mp4-to-mp3"><a href="https://en1.savefrom.net/108-mp4-to-mp3.html" class="main-favicon icon-convert-mp4-to-mp3">MP4 to MP3</a></li><li class="service-convert-mov-to-mp4"><a href="https://en1.savefrom.net/109-mov-to-mp4.html" class="main-favicon icon-convert-mov-to-mp4">MOV to MP4</a></li><li class="service-convert-mp4-to-gif"><a href="https://en1.savefrom.net/110-mp4-to-gif.html" class="main-favicon icon-convert-mp4-to-gif">MP4 to GIF</a></li><li class="service-convert-mkv-to-mp4"><a href="https://en1.savefrom.net/111-mkv-to-mp4.html" class="main-favicon icon-convert-mkv-to-mp4">MKV to MP4</a></li><li class="service-convert-webm-to-mp4"><a href="https://en1.savefrom.net/112-webm-to-mp4.html" class="main-favicon icon-convert-webm-to-mp4">WEBM to MP4</a></li></ul></div>  </nav>
+
+
+    <div class="how-to-use-v2">
+      <h1>Free Online Video Downloader</h1>
+
+      <h2>Download Videos Easily with SaveFrom.Net</h2>
+      <p>SaveFrom.Net serves as your reliable solution for downloading favorite online videos and music content. This trusted video downloader has helped millions of users worldwide, providing a simple method to save media from popular platforms without requiring complex software installation. Our web-based tool operates smoothly on both desktop computers and mobile devices, featuring an intuitive interface that streamlines the entire download process.</p>
+      <p>Whether you want YouTube videos, entertainment shows, or sports highlights, SaveFrom.Net provides dependable results. Simply copy your desired video URL, paste it into our download field, and click the download button. For users who want a faster workflow, our Chrome browser extension provides convenient one-click downloading functionality that integrates seamlessly into your browsing experience.</p>
+      
+      <h2>Download High-Quality MP4 Videos</h2>
+      <p>Offline video access gives you greater control over your entertainment experience compared to streaming alone. SaveFrom.Net's video downloader maintains original quality standards, providing crystal-clear MP4 downloads that preserve their source resolution and clarity.</p>
+      <p>Create your personal video collection with confidence, knowing each download maintains its high-definition quality. Our conversion technology guarantees your saved MP4 files display the same visual excellence as their online versions. Ideal for travel situations, areas with limited internet connectivity, or users who prefer having instant access to their content library, SaveFrom.Net offers reliable video downloading capabilities you can depend on.</p>
+
+      <h2>Complete Guide to Downloading High-Quality MP4 Videos Online</h2>
+      <ol>
+        <li class="how-to-step-apk">
+          <div class="how-to-step-apk-top">
+            <a class="install-apk-button" href="https://downloadhelper.app/download/apk/sf-3.1.60-3050.apk" target="_top"><img src="/img/main/android.svg"
+                                                                                       width="26" height="30"
+                                                                                       alt="Mobile App for Video Downloads">Download
+              Mobile App</a>
+            <picture class="left-picture">
+              <source type="image/webp" srcset="/img/main/steps/apk.webp">
+              <img src="/img/main/steps/apk.png" width="363" height="188" alt="Download the Mobile App"/>
+            </picture>
+          </div>
+          <div class="how-to-use-middle-text">
+            <p><strong>Copy the video URL you want to download</strong> and visit our video download page. Insert the link into the
+              input box, then hit "Enter" or select "Download" to start the downloading process.</p>
+          </div>
+        </li>
+        <li class="how-to-step-1">
+          <div class="how-to-use-middle-text">
+            <p><strong>Begin by copying the video URL</strong> from your preferred video platform. Navigate to our download page and insert the
+              link into the designated field. Select "Download" or hit "Enter" to launch the video conversion.</p>
+          </div>
+          <picture>
+            <source type="image/webp" srcset="/img/main/steps/step-1.webp">
+            <img src="/img/main/steps/step-1.png" width="386" height="248" alt="Step 1: Copy Video Link"/>
+          </picture>
+          <span class="how-to-use-middle-arrow"></span>
+        </li>
+        <li class="how-to-step-2">
+          <div class="how-to-use-middle-text">
+            <p>Accelerate your video downloads by inserting <strong>"savefrom.net/"</strong> or <strong>"sfrom.net/"</strong>
+              directly before any video URL. Hit <strong>Enter</strong> to proceed. Example: <a
+                href="http://sfrom.net/http://youtube.com/watch?v=u7deClndzQw" target="_blank"
+                rel="nofollow noopener noreferrer">sfrom.net/http://youtube.com/watch?v=u7deClndzQw</a></p>
+          </div>
+          <picture class="left-picture">
+            <source media="(max-width: 768px)" type="image/webp" srcset="/img/main/steps/helper.webp">
+            <img src="/img/main/steps/step-2.png" width="386" height="248" alt="Step 2: Add Savefrom.net to URL"/>
+          </picture>
+        </li>
+        <li class="how-to-step-3">
+          <div class="how-to-use-middle-text">
+            <p>Access our optimized domain <strong class="green-bold">ssyoutube.com</strong> for faster video downloads
+              and improved user experience.</p>
+          </div>
+          <picture>
+            <source media="(max-width: 768px)" type="image/webp" srcset="/img/main/steps/step-2.webp">
+            <img src="/img/main/steps/step-3.png" width="386" height="248" alt="Step 3: Use ssyoutube.com"/>
+          </picture>
+          <span class="how-to-use-middle-arrow"></span>
+        </li>
+        <li class="how-to-step-helper">
+          <div class="how-to-use-middle-text">
+            <p><strong>Download our browser extension</strong> for immediate, single-click video downloads directly from your
+              web browser interface.</p>
+            <a class="install-helper-button" href="https://en1.savefrom.net/1OD/user.php" target="_top"><img src="/img/main/download.svg"
+                                                                                      width="25" height="26"
+                                                                                      alt="Download Browser Extension">Install
+              Helper</a>
+          </div>
+          <picture class="left-picture">
+            <source media="(max-width: 768px)" type="image/webp" srcset="/img/main/steps/step-3.webp">
+            <img src="/img/main/steps/helper.png" width="386" height="248" alt="Install Browser Extension"/>
+          </picture>
+        </li>
+      </ol>
+
+      <div class="how-to-use-bottom">
+        <div class="how-to-use-bottom-text">
+          <h2>Download Videos in Any Resolution - From SD to Crisp 4K</h2>
+          <p>Access videos in the highest quality possible! Our advanced video downloader supports various resolutions, ranging from standard definition (SD) to ultra-sharp 4K content. We maintain the original video quality directly from the source, ensuring that when content creators upload material in 1080p HD, you can download it with identical crisp clarity. Enjoy your saved videos offline while preserving their original visual quality and stunning detail.</p>
+        </div>
+        <img src="/img/main/4k.svg" width="354" height="216" alt="Download videos in HD, Full HD, and 4K resolution">
+      </div>
+      <div class="how-to-use-bottom mb-100">
+        <div class="how-to-use-bottom-text">
+          <h2>Download Videos on Any Browser</h2>
+          <p>Our powerful video downloader works seamlessly across all major web browsers. Whether you use Chrome, Firefox, Safari, Opera, or other Chromium-based browsers, you can save videos quickly and reliably. Enjoy consistent and stable video downloading performance no matter which browser you choose for your daily browsing needs.</p>
+        </div>
+        <img src="/img/main/video.svg" width="354" height="217"
+             alt="Video downloader compatible with all major browsers">
+      </div>
+      
+      <section itemType="https://schema.org/FAQPage" itemscope="">
+        <div class="sf_faq">
+          <div class="sf_faq_title">
+            <h2>Frequently Asked Questions</h2>
+          </div>
+
+          <div class="faq_item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="faq_item_title">
+              <h3 itemprop="name">How can I download videos from any website?</h3>
+              <div class="arrow"></div>
+            </div>
+            <div class="faq_item_content" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>SaveFrom.net is a free online video downloader that works with hundreds of popular websites, including YouTube, Facebook, Instagram, TikTok, and many others. To download a video, copy the video URL from the page and paste it into the search field on our homepage. The service will instantly generate available download options so you can save the video to your computer, tablet, or smartphone. For quicker access, you can install our browser extension, which adds a download button directly to supported video pages and lets you save content in just one click.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq_item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="faq_item_title">
+              <h3 itemprop="name">How can I download videos via a URL?</h3>
+              <div class="arrow"></div>
+            </div>
+            <div class="faq_item_content" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>To download a video using a URL, simply copy the direct link from any supported platform such as YouTube, Vimeo, or Dailymotion. Paste the link into the download field on the SaveFrom.net homepage and wait a few seconds while the system processes the file. You can then choose your preferred format and quality, including MP4 or WebM, with options such as HD, Full HD, or 4K when available. Click the download button to save the video file directly to your device.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq_item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="faq_item_title">
+              <h3 itemprop="name">What is the best video downloader for Chrome?</h3>
+              <div class="arrow"></div>
+            </div>
+            <div class="faq_item_content" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>The SaveFrom.net Helper extension is widely considered one of the top Chrome video downloader extensions available today. This free Chrome add-on integrates directly into your browser and supports downloads from more than 40 major video and social media platforms. It works reliably with YouTube videos, Facebook posts, Instagram stories, and other streaming pages. The extension is lightweight, secure, and designed to provide stable download performance across supported formats.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq_item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="faq_item_title">
+              <h3 itemprop="name">What is the best all-in-one video downloader?</h3>
+              <div class="arrow"></div>
+            </div>
+            <div class="faq_item_content" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <div itemprop="text">
+                <p>SaveFrom.net is an all-in-one online video downloader that supports more than 40 websites, including YouTube, TikTok, Facebook, Instagram, Twitter, Vimeo, and Dailymotion. The tool runs directly in your browser, so there is no need to install additional software. You can download videos in multiple formats such as MP4 or WebM and choose from a range of quality options, from 144p up to 4K resolution when provided by the original source. The platform is focused specifically on video downloads and does not include video-to-audio conversion features, making it a dedicated solution for saving online videos from various websites.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+<style>
+  .main-block {
+    padding-bottom: 0px;
+  }
+
+  .open-link-form-new #link-form-old-cont {
+    margin-bottom: 40px;
+  }
+
+  #main > div.downloader-block > div.downloader-2.downloader-2-part2 > h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #434343;
+    letter-spacing: -0.01em;
+    padding-bottom: 20px;
+  }
+
+  .main-block .wrapper.wrapper-after-output {
+    padding-top: 0;
+  }
+
+  .site-info-tabs {
+    width: 940px;
+  }
+
+  .site-info-tabs .show-mobile-only {
+    display: none;
+  }
+
+  .site-info-tabs h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    color: #000000;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  @media screen and (max-width: 979px) {
+    .main-block .wrapper {
+      max-width: calc(100% - 28px);
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+
+    .site-info-tabs {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    .site-info-tabs h2 {
+      font-family: 'Roboto', sans-serif;
+      margin-top: 40px;
+      margin-bottom: 24px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 26px;
+      text-align: left;
+      color: #000000;
+    }
+  }
+
+  @media screen and (max-width: 580px) {
+    ul.supported-services li {
+      width: 40%;
+    }
+  }
+
+</style>
+
+     </div>
+            </div>
+    <!--/content-->
+
+      <!-- verify-admitad: "ef27e00c36" -->
+</div> <!--/main-->
+
+  <!--Footer-->
+<footer class="footer_v2">
+  <div class="wrapper">
+    <nav class="lang-box" tabindex="0" style="z-index:1000;" translate="no">
+      <ul class="lang">
+        
+
+<li><a href="https://ar.savefrom.net/250rm/" class="lang-ar">العربية</a></li><li><a href="https://de.savefrom.net/192ji/" class="lang-de">Deutsch</a></li><li class="active"><span class="lang-en">English</span></li><li><a href="https://es.savefrom.net/266EF/" class="lang-es">Español</a></li><li><a href="https://fr.savefrom.net/351Dr/" class="lang-fr">‪Français</a></li><li><a href="https://hi.savefrom.net/214RE/" class="lang-hi">हिन्दी‎</a></li><li><a href="https://id.savefrom.net/253Fi/" class="lang-id">Bahasa Indonesia‬</a></li><li><a href="https://it3.savefrom.net/9Nx/" class="lang-it">‪Italiano‬</a></li><li><a href="https://ja.savefrom.net/194jz/" class="lang-ja">日本語</a></li><li><a href="https://ko.savefrom.net/229au/" class="lang-ko">한국어</a></li><li><a href="https://pl.savefrom.net/179yr/" class="lang-pl">Polski‎</a></li><li><a href="https://pt1.savefrom.net/6Be/" class="lang-pt">Português (Brasil)</a></li><li><a href="https://ru.savefrom.net/246rR/" class="lang-ru">Русский</a></li><li><a href="https://th.savefrom.net/237oh/" class="lang-th">ไทย</a></li><li><a href="https://tr.savefrom.net/256Pa/" class="lang-tr">Türkçe‬</a></li><li><a href="https://uk.savefrom.net/223NZ/" class="lang-uk">Українська‬</a></li><li><a href="https://vi.savefrom.net/251yN/" class="lang-vi">Tiếng Việt</a></li><li><a href="https://zh.savefrom.net/267ZQ/" class="lang-zh">简体中文</a></li>      </ul>
+    </nav>
+
+    <div class="f-nav-box">
+      <div class="f-nav-box-column copyright-box">
+        <img src="/img/logo_small2.svg" width="167" height="40" alt="">
+        <p class="copyright" dir="ltr">© 2008-2026</p>
+              </div>
+      <div class="f-nav-box-column f-nav-container">
+        <nav class="f-nav">
+                              <div class="f-nav-column f-nav-articles">
+            <ul>
+                              <li>
+                                  <a href="https://en1.savefrom.net/1-youtube-video-downloader-19uO/" >YouTube</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/21-youtube-to-mp4-37Nq.html" >YouTube to mp4</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/23-youtube-shorts-downloader-5LP.html" >YouTube Shorts</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/102-youtube-music-downloader-16ql.html" >YouTube Mp3</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/19-ssyoutube-5ll.html" >ssYouTube</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/16-youtube-downloader-app-5VE.html" >APP</a>
+                                </li>
+                          </ul>
+          </div>
+                    <div class="f-nav-column f-nav-articles">
+            <ul>
+                              <li>
+                                  <a href="https://en1.savefrom.net/11Qc/download-from-instagram" >Instagram</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/20-download-instagram-stories-2jV.html" >IG stories</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/25-instagram-reels-download-4GZ.html" >Instagram reels</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/26-instagram-viewer-4hX.html" >Instagram viewer</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/22-threads-downloader-6xh.html" >Threads</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/7-how-to-download-vk-music-videos-photos-5Sw.html" >VK</a>
+                                </li>
+                          </ul>
+          </div>
+                    <div class="f-nav-column f-nav-articles">
+            <ul>
+                              <li>
+                                  <a href="https://en1.savefrom.net/14sU/download-from-tiktok" >TikTok</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/28-tiktok-mp4-2Sw.html" >TikTok mp4</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/27-tiktok-mp3-3Az.html" >TikTok mp3</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/10ka/reddit-video-downloader" >Reddit</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/10-how-to-download-dailymotion-video-2YB.html" >Dailymotion</a>
+                                </li>
+                          </ul>
+          </div>
+                    <div class="f-nav-column f-nav-articles">
+            <ul>
+                              <li>
+                                  <a href="https://en1.savefrom.net/9-how-to-download-facebook-video-8GJ.html" >Facebook</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/11-how-to-download-vimeo-video-1.html" >Vimeo</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/100-how-to.html" >How to</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/106-xiaohongshu-video-downloader.html" >Xiaohongshu</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/1/apk" >APK</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/1/faq.php" >FAQ</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/1OD/user.php?vid=388" >Install</a>
+                                </li>
+                          </ul>
+          </div>
+                    <div class="f-nav-column f-nav-articles">
+            <ul>
+                              <li>
+                                  <a href="https://en1.savefrom.net/107-convert-to-mp4.html" >Mp4 Converter</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/108-mp4-to-mp3.html" >MP4 to MP3</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/109-mov-to-mp4.html" >MOV to MP4</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/110-mp4-to-gif.html" >MP4 to GIF</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/111-mkv-to-mp4.html" >MKV to MP4</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/112-webm-to-mp4.html" >WEBM to MP4</a>
+                                </li>
+                          </ul>
+          </div>
+                    <div class="f-nav-column f-nav-articles">
+            <ul>
+                              <li>
+                                  <a href="https://en1.savefrom.net/1/webmaster.php" >For webmasters</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/1/contact.php" >Feedback</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/1/api.php" >API</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/1/advertising.php" >Advertising</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/1/terms.html" rel="nofollow">Terms of Service</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/1/EULA.html" rel="nofollow">EULA</a>
+                                </li>
+                              <li>
+                                  <a href="https://en1.savefrom.net/1/privacy-policy.html" rel="nofollow">PP</a>
+                                </li>
+                          </ul>
+          </div>
+                  </nav>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script type='application/ld+json'>
+{
+    "@context": "http://schema.org/",
+    "@type": "SoftwareApplication",
+    "applicationCategory": "MultimediaApplication",
+    "operatingSystem": [
+        "Windows",
+        "macOS",
+        "Android",
+        "iOS"
+    ],
+    "screenshot": "https://en1.savefrom.net/assets/experiment/sf-helper/img/helper_button_screenshot_en.png",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingCount": "54989",
+        "reviewCount": "54989",
+        "bestRating": "5",
+        "ratingValue": "4.8",
+        "worstRating": "1",
+        "alternateName": "Free Online Video Downloader - SaveFrom.net",
+        "mainEntityOfPage": "https://en1.savefrom.net/18CX/",
+        "name": "Savefrom"
+    },
+    "alternativeHeadline": "Savefrom",
+    "copyrightYear": "2026",
+    "headline": "Savefrom",
+    "keywords": "savefrom",
+    "offers": {
+        "@type": "Offer",
+        "price": "0.0",
+        "priceCurrency": "USD",
+        "alternateName": "Savefrom",
+        "description": "Download videos from popular platforms with SaveFrom.net, the leading free online video downloader. Easily save videos in various formats and resolutions. Start downloading now!",
+        "mainEntityOfPage": "https://en1.savefrom.net/18CX/",
+        "name": "Savefrom"
+    },
+    "alternateName": "Savefrom",
+    "mainEntityOfPage": "https://en1.savefrom.net/18CX/",
+    "name": "Savefrom"
+}
+</script>
 </body>
 </html>
+
+   <!--HEADER CLEAR-->
+   <script src="/js/libs/jquery-3.6.0.min.js"></script>
+   <script>window.jQuery || document.write('<script src="/js/libs/jquery-3.6.0.min.js"><\/script>')</script>
+   <script src="/build/js/scripts.js?h=2f75cec1.js"></script>   
+<script>
+  (function(){
+    initSfJs("en",".savefrom.net","",["sf-android","televzr","android-light","rd_documents","sf-proxy"],"",false,["ar","de","en","es","fr","hi","id","it","ja","ko","pl","pt","ru","th","tr","uk","vi","zh"],false,false);
+
+    
+    
+    _sf.workerHost = "worker.savefrom.net";
+    _sf.converterHost = "converter.savefrom.net";
+    sfHelperConfig = {"vid":{"default":300,"cookieName":"vid"},"cookie":"browser_ext","setup":{"browser":{"chrome":{"name":"Google Chrome","url":"\/userjs-for-google-chrome.php","isStore":false,"browserUrl":"https:\/\/www.google.com\/chrome","installAction":"inststructions","updateAction":"inststructions","desktop":true,"mobile":false},"chromium":{"name":"Chromium","url":"\/userjs-for-google-chrome.php","isStore":false,"browserUrl":"https:\/\/www.chromium.org\/","installAction":"inststructions","updateAction":"inststructions","desktop":true,"mobile":false},"firefox":{"name":"Mozilla Firefox","url":"https:\/\/addons.mozilla.org\/firefox\/addon\/savefromnet-helper\/","isStore":true,"browserUrl":"https:\/\/www.mozilla.com\/firefox\/","minVersion":24,"installAction":"install","updateAction":"update","desktop":true,"mobile":true},"opera":{"name":"Opera","url":"https:\/\/addons.opera.com\/extensions\/details\/savefromnet-helper\/","isStore":true,"browserUrl":"https:\/\/www.opera.com\/download\/","installAction":"install","updateAction":"update","desktop":true,"mobile":false},"safari":{"name":"Safari","url":"\/helper-safari.php","isStore":false,"browserUrl":"https:\/\/www.apple.com\/safari\/","installAction":"inststructions","updateAction":"inststructions","desktop":true,"mobile":false},"yandex":{"name":"Yandex.Browser","url":"\/savefrom-helper-for-yandex-browser.php","isStore":true,"browserUrl":"https:\/\/browser.yandex.com\/","installAction":"install","updateAction":"update","desktop":true,"mobile":true},"edge":{"name":"Edge","url":"https:\/\/microsoftedge.microsoft.com\/addons\/detail\/savefromnet-helper\/hndfjogdceachkbgioglehonpejcdhem","isStore":true,"browserUrl":"https:\/\/www.microsoft.com\/en-us\/edge","installAction":"install","updateAction":"update","desktop":true,"mobile":false}},"userjs":{"url":"https:\/\/download.sf-helper.com\/chrome\/helper.user.js","installAction":"install","updateAction":"update"}},"setupInstructions":{"imgExt":"png","thumbnailSuffix":"_t","os":{"imgExt":"png","thumbnailSuffix":"_t","os":{"windows":{"imgLang":["en","ru"],"steps":{"default":[{"img":"setup_start","imgLang":["en","ru"],"imgExt":"png","thumbnailSuffix":"_t","text":"default_1"},{"img":"setup_1_step","text":"default_2"}],"chrome":[{"img":"chrome_download","text":"chrome_1"}],"chromium":[{"img":"chrome_download","text":"chrome_1"}],"firefox":[{"img":"firefox_download","text":"firefox_1"},{"img":"firefox_download_button","text":"firefox_2"}],"opera":[{"img":"opera_webkit_download_list","text":"opera-webkit_1"}],"safari":[{"img":"safari_download","text":"safari_1"}],"yandex":[{"img":"yandex_download_button","text":"yandex_1"}]}}}}}};
+    _sf.helper = new sfHelper(sfHelperConfig, _sf.browser, _sf.os, _sf.isMobile, _sf.country);
+
+    apkConfig = {"versions":{"stable":{"url":"https:\/\/downloadhelper.app\/download\/apk\/sf-3.1.60-3050.apk","version":"3.1.60 (3050)"}},"distribution":[{"lang":[],"country":[],"excludeLang":[],"excludeCountry":[],"files":[{"url":"https:\/\/downloadhelper.app\/download\/apk\/sf-3.1.60-3050.apk","version":"3.1.60 (3050)","sample":100}]},{"lang":[],"country":[],"excludeLang":[],"excludeCountry":[],"query":{"utm_source":"ads"},"files":[{"url":"https:\/\/downloadhelper.app\/download\/apk\/sf-3.1.60-3050.apk","version":"3.1.60 (3050)","sample":0}]}]};
+    _sf.apk = new apkDistribution(apkConfig, _sf.country);
+    _sf.ciVersion = "30f30bc6";
+  })();
+</script>
+<script src="/sf-js-dynamic.php"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YZBZRGCYS9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','_ga');
+
+  "use strict";(self.webpackChunksavefrom_net=self.webpackChunksavefrom_net||[]).push([[6265],{2396:function(e){e.exports=window.$},8431:function(e,t,a){var i=a(2396);window.gaHandler={isProd:!1,defaultTrackerName:"t0",trackers:{},trackerNameToGa4IdMap:{},trackersToSkip:{},hostReplacementRegex:null,hostDefault:"other",hostRegex:/^(?=.{1,253}\.?$)(?:(?!-|[^.]+_)[A-Za-z0-9-_]{1,62}[A-Za-z0-9_](?:\.|$)){2,}$/,hostFromUrlRegex:/^(?:https?:)?\/\/(?:[^\/]+@)?([^\/:]+)/i,hostReplacement:{"youtube.com":"101","youtu.be":"101","instagram.com":"in","facebook.com":"fa","fb.com":"fa","vkontakte.com":"vk","vk.com":"vk","twitter.com":"tw","t.co":"tw","dailymotion.com":"da","dai.ly":"da","vimeo.com":"vi","soundcloud.com":"so","tiktok.com":"ti","hotstar.com":"ho","google.com":"se","yandex.ru":"se","ya.ru":"se","bing.com":"se","bit.ly":"ls","bitly.com":"ls","savefrom.net":"sf","xvideos.com":"xxx","xnxx.com":"xxx","pornhub.com":"xxx","youporn.com":"xxx","xhamster.com":"xxx","spankbang.com":"xxx","xvideos2.com":"xxx","txxx.com":"xxx","anybunny.tv":"xxx","redtube.com":"xxx","xnxx.tv":"xxx","pornhubpremium.com":"xxx","iporntv.net":"xxx"},eventReplacement:{youtube:"101",instagram:"in",facebook:"fa",vkontakte:"vk",twitter:"tw",dailymotion:"da",vimeo:"vi",soundcloud:"so",tiktok:"ti",hotstar:"ho"},forceReplaceEvents:{"link-insert":["main-page"],"link-submit":["main-page"],show:["vidacha"],"download-click":["vidacha"]},pageveiewLocation:"",pageviewReplacement:{check:/youtube\.com|youtu\.be/i,regex:/(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*?[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})/gi,to:"101"},ga3FieldsToGa4Map:{name:"name",sampleRate:null,language:"language",location:"page_location",title:"page_title",referrer:"page_referrer",sendPageview:"send_page_view",screenResolution:"screen_resolution",userId:"user_id",allowAdFeatures:"allow_google_signals",cookiePath:"cookie_path",cookieDomain:"cookie_domain",cookieExpires:"cookie_expires",cookieName:"cookie_prefix",cookieUpdate:"cookie_update",cookieFlags:"cookie_flags",allowLinker:"linker",contentGroup:"content_group",anonymizeIp:null,customTask:null,siteSpeedSampleRate:null,campaignSource:null,campaignMedium:null,campaignName:null,hitCallback:null},stringToArray(e,t){t=t||";";var a=new RegExp(t+"+$");return(e=e.replace(a,"")).split(t)},checkTracker(e){if(Array.isArray(e)&&e.length>=2){const{trackerName:t,command:a}=this.getTrackerNameByCommand(e[0]);if(t&&!this.trackers[t]&&!this.trackerNameToGa4IdMap[t])if(_sf.gaTrackers[t])if(_sf.gaTrackers[t].id){delete this.trackersToSkip[t];const e=_sf.gaTrackers[t].parameters||{};ga("create",_sf.gaTrackers[t].id,"savefrom.net",t,e),_sf.gaTrackers[t].sendPageview&&ga(t+".send","pageview")}else this.trackersToSkip[t]=!0;else e[0]=a;return!0}return!1},addTracker(e,t,a={}){this.trackers[e]={id:t,parameters:a,isGa4:this.isGa4Resource(t)}},track(e){"string"==typeof e&&(e=this.stringToArray(e)),this.checkTracker(e)&&ga.apply(null,e)},trackNode(e,t){t=t||"data-ga-event";var a=i(e).attr(t);a&&this.track(a)},getTrackerNameByCommand(e){const t=e.split(".",2);let a="",i="";return 1===t.length?i=e:(a=t[0],i=t[1]),{trackerName:a,command:i}},filterPayload(e){return e[1]?"object"==typeof e[1]?("event"===e[1].hitType&&(this.isEventRequireReplacement(e[1].category,e[1].action)?e[1].label=this.replaceEventField(e[1].label,!0):["eventCategory","eventAction","eventLabel"].forEach(t=>{e[1][t]&&(e[1][t]=this.replaceEventField(e[1][t]))})),e):("event"===e[1]&&(this.isEventRequireReplacement(e[2],e[3])?e[4]=this.replaceEventField(e[4],!0):[2,3,4].forEach(t=>{e[t]&&(e[t]=this.replaceEventField(e[t]))})),e):e},filterGa4Payload(e){const[,t,{event_category:a,event_label:i}]=e;return this.isEventRequireReplacement(a,t)?e[2].event_label=this.replaceEventField(i,!0):(e[1]=this.replaceEventField(t),a&&(e[2].event_category=this.replaceEventField(a)),i&&(e[2].event_label=this.replaceEventField(i))),e},getEventOrPageviewByPayload(e){if("object"==typeof e[1]){if("event"===e[1].hitType||"pageview"===e[1].hitType)return e[1];throw new Error("Invalid payload")}if("event"===e[1]){const[,t,a,i,o,r]=e;return{hitType:t,eventCategory:a,eventAction:i,eventLabel:o,...r}}if("pageview"===e[1]){const[,t,a,i]=e;return{hitType:t,location:a,...i}}throw new Error("Invalid payload")},isEventRequireReplacement(e,t){return!(!e||!t||!(this.forceReplaceEvents[t]&&this.forceReplaceEvents[t].indexOf(e)>-1))},getHostReplacementRegex(){if(this.hostReplacementRegex)return this.hostReplacementRegex;let e=Object.keys(this.hostReplacement);return e=e.join("|").replace(/\./g,"\\."),this.hostReplacementRegex=new RegExp(`^(?:.+[/.@ ])?(${e})(?:[^w].*|$)`,"i"),this.hostReplacementRegex},getHostnameFromUrl(e){const t=e.match(this.hostFromUrlRegex);return t?t[1]:""},replaceEventField(e,t){if(!e||"string"!=typeof e)return e;if(e in this.eventReplacement)return this.eventReplacement[e];if(-1===e.indexOf("."))return e;if(this.hostRegex.test(e))return this.getEventFieldIdByHost(e);const a=this.getHostnameFromUrl(e);return a?this.getEventFieldIdByHost(a):t?this.getEventFieldIdByHost(e):e},getEventFieldIdByHost(e){if(!e)return e;const t=this.getHostReplacementRegex(),a=e.replace(t,(e,t)=>this.hostReplacement[t]);return a!=e?a:this.hostDefault},setPageviewLocation(){this.checkLocation()||(this.pageveiewLocation=this.buildLocation())},checkLocation(){if(!document.location)return!0;var e=document.location.pathname||"";if(e&&this.pageviewReplacement.check.test(e))return!1;var t=document.location.search||"";return!t||!this.pageviewReplacement.check.test(t)},buildLocation(){var e=document.location.pathname||"";"/"!=e.charAt(0)&&(e="/"+e),e=e.replace(this.pageviewReplacement.regex,this.pageviewReplacement.to);var t=document.location.search||"";if(t&&(t=t.replace(this.pageviewReplacement.regex,this.pageviewReplacement.to),"URLSearchParams"in window)){var a=new URLSearchParams(t);a.forEach((e,i)=>{this.pageviewReplacement.check.test(e)&&(a.set(i,e.replace(this.pageviewReplacement.regex,this.pageviewReplacement.to)),t=a.toString())})}var i=document.location.protocol+"//"+document.location.hostname+e+t,o=document.location.hash||"";if(o){o=o.split(/[?&#]+/);for(var r=[],n=["utm_id","utm_campaign","utm_source","utm_medium","utm_term","utm_content","gclid","dclid","gclsrc"],s=0;s<o.length;++s)for(var c=0;c<n.length;c++)if(0===o[s].indexOf(n[c])){r.push(o[s]);break}r&&(i+="#"+r.join("&"))}return i},isGa4Resource(e){return e&&0===e.indexOf("G-")},isGa4Tracker(e){return this.trackers[e]?!!this.trackers[e].isGa4:!!this.trackerNameToGa4IdMap[e]},getGa4TrackerConfig(e){return this.trackers[e]?this.trackers[e]:this.trackerNameToGa4IdMap[e]?this.trackers[this.trackerNameToGa4IdMap[e]]:null},execGa(e){let t="";const{trackerName:a,command:i}=this.getTrackerNameByCommand(e[0]);if("create"===i){const a=e[1];let i=this.defaultTrackerName,o={};if(e[3]&&("object"==typeof e[3]?(i=e[3].name||i,o=e[3]):"object"==typeof e[4]&&(i=e[3],o=e[4])),this.isGa4Resource(a))return this.execGtag(["config",a,{name:i,cookie_domain:e[2],...this.convertGa3FieldsToGa4(o)}]);t=i,o.cookieDomain=e[2],this.addTracker(i,a,o)}else if("send"===i){this.checkTracker(e);const t=a||this.defaultTrackerName;if(this.isGa4Tracker(t))return this.sendGa3EventOrPageviewToGa4(t,e);if(this.trackersToSkip[t])return void(this.isProd||console.log("SKIP GA stats: "+JSON.stringify(e)));this.filterPayload(e)}else if("set"===i){this.checkTracker(e);const t=a||this.defaultTrackerName;if(this.isGa4Tracker(t))return this.setGa3DataToGa4(t,e);if(this.trackersToSkip[t])return void(this.isProd||console.log("SKIP GA stats: "+JSON.stringify(e)))}else this.checkTracker(e);this.isProd?window._ga.apply(window,e):(console.log("GA stats: "+JSON.stringify(e)),"create"!==e[0]&&"string"==typeof e[0]||window._ga.apply(window,e)),t&&this.pageveiewLocation&&ga(t+".set","location",this.pageveiewLocation)},execGtag(e){if("config"===e[0]){const t=e[1],a=e[2]||{};this.trackers[t]?this.checkTracker(e):(this.pageveiewLocation&&(a.page_location=this.pageveiewLocation),a.name&&(this.trackerNameToGa4IdMap[a.name]=t),this.addTracker(t,t,a))}else this.checkTracker(e);"event"===e[0]&&this.filterGa4Payload(e),this.isProd||console.log("GTAG stats: "+JSON.stringify(e)),window.gtag.apply(window,e)},convertGa3FieldsToGa4(e){const t={};return Object.keys(e).forEach(a=>{a in this.ga3FieldsToGa4Map?this.ga3FieldsToGa4Map[a]&&(t[this.ga3FieldsToGa4Map[a]]=e[a]):t[a]=e[a]}),t},sendGa3EventOrPageviewToGa4(e,t){const a=this.getEventOrPageviewByPayload(t);return"pageview"===a.hitType?this.sendGa3PageviewToGa4(e,a):this.sendGa3EventToGa4(e,a)},sendGa3EventToGa4(e,t){var a;const i=this.trackerNameToGa4IdMap[e]||(null===(a=this.trackers[e])||void 0===a?void 0:a.id);if(!i)return void console.error("Invalid tracker name in event: ",e);const{hitType:o,eventCategory:r,eventAction:n,eventLabel:s,value:c,...l}=this.convertGa3FieldsToGa4(t),h={...l,send_to:i};r&&(h.event_category=r),s&&(h.event_label=s),c&&(h.value=c),n&&this.execGtag(["event",n,h])},sendGa3PageviewToGa4(e,t){var a;const i=this.trackerNameToGa4IdMap[e]||(null===(a=this.trackers[e])||void 0===a?void 0:a.id),o=this.getGa4TrackerConfig(e);if(!i||!o)return void console.error("Invalid tracker name in pageview: ",e);const{hitType:r,page_location:n="",page_title:s=document.title,...c}=this.convertGa3FieldsToGa4(t);(!1===o.sendPageview||n)&&this.execGtag(["event","page_view",{page_title:s,page_location:n||this.pageveiewLocation||document.location.href||"",...c,send_to:i}])},setGa3DataToGa4(e,t){var a;const i=this.trackerNameToGa4IdMap[e]||(null===(a=this.trackers[e])||void 0===a?void 0:a.id);if(!i)return void console.error("Invalid tracker name in set: ",e);const[,o,r]=t,n={};n[o]=r,this.execGtag(["config",i,n])},getGa4Cid(e){var t;const a=this.trackerNameToGa4IdMap[e]||(null===(t=this.trackers[e])||void 0===t?void 0:t.id);return new Promise(e=>{window.gtag("get",a,"client_id",e)})}}}},function(e){e(e.s=8431)}]);  window.gaHandler.isProd = true;
+  window.gaHandler.setPageviewLocation();
+
+  window.ga = function() {
+    window.gaHandler.execGa(Array.prototype.slice.call(arguments, 0));
+  };
+
+  window._gtag = function() {
+    window.gaHandler.execGtag(Array.prototype.slice.call(arguments, 0));
+  }
+
+  if (_sf.app) {
+    ga('create', 'UA-156919089-8', 'savefrom.net', {'userId': _sf.stats.uid});
+    ga('set', 'dimension1', _sf.app);
+    _sf.stats.basicMetricsTracking['t0'] = {events: ['all']};
+    ga('require', 'displayfeatures');
+
+          ga('send', 'pageview');
+      }
+  else {
+    _gtag('config', 'G-YZBZRGCYS9', {cookie_domain: 'savefrom.net', name: 't0', user_properties: {id: _sf.stats.uid}});
+      }
+
+  ga('create', 'UA-7055055-78', 'auto', {'name': 'helper', 'userId': _sf.stats.uid})
+</script>
+
+   <script src="/build/js/assetsSfMain.js?h=49c00b92.js"></script>
+   <script>
+     if (top != self && (!document.referrer || document.referrer.search(/^https?:\/\/(www\.google\.com\/analytics\/web\/)/i) !== 0)) {
+       top.location = location;
+     }
+
+     if (_sf.hash && _sf.hash.utm_campaign && _sf.hash.url && _sf.hash.utm_campaign.indexOf('ssyoutube.com') > -1) {
+       _sf.ssyoutube = true;
+       _sf.channel.push('ssyoutube');
+       if (_sf.hash.url == 'http://youtube.com/watch?v=AEIVhBS6baE') {
+         location.href = '/404.php';
+       }
+
+     } else {
+              _sf.channel.push('main');
+            }
+
+     $(function () {
+       (function (name, lang, domain) {
+         if (window.sf && name && lang && domain) {
+           if (lang != sf.cookie.get(name)) {
+             sf.cookie.set(name, lang, 365, domain);
+           }
+         }
+       })('lang', 'en', 'COOKIE_DOMAIN');
+     });
+   </script>
+   <!--TOP CLEAR-->
+   <script>
+     (function () {
+       if (!window._sf || !window.jQuery) {
+         var div = document.createElement('div');
+         var jsErrorBlock = '<div class="wrapper"><div class="b-info b-js-error"><p class="t-sf-logo">Something went wrong. Please, try again.</p><button class="btn_no-border green-btn-3 js-refresh-page" type="button" onClick="window.location.reload();">Refresh</button></div></div>';
+
+         div.innerHTML = jsErrorBlock;
+
+         window.onload = function () {
+           var errorPlacement = document.querySelector('header');
+           var parentErrorPlacement = errorPlacement.parentNode;
+
+           parentErrorPlacement.insertBefore(div, errorPlacement.nextSibling);
+
+           _ga('create', 'UA-7055055-62', 'savefrom.net', 'jsError');
+           _ga('jsError.send', 'event', 'main-page', 'error-window-show', 'TRUE');
+           _ga('jsError.send', 'event', 'main-page', '_sf-ind-error', '');
+         }
+       }
+
+       if (!window.jQuery) {
+         _ga('jsError.send', 'event', 'main-page', 'jquery-error', '');
+       }
+     })();
+   </script>
+   <script>
+"use strict";(self.webpackChunksavefrom_net=self.webpackChunksavefrom_net||[]).push([[5591],{7354:function(e,r,n){var t=n(2396),o=n(3769)(n(9967));window.extensionVersion={url:"//download.sf-helper.com/",config:{chrome:{url:"chrome/updates-3.xml",dataType:"xml",fn:function(e,r,n){if(n.responseXML){var t=n.responseXML.querySelector('app[appid="mdpljndcmbeikfnlflcggaipgnhiedbl"] > updatecheck');if(t)return t.getAttribute("version")}return null}},firefox:{url:"mozilla/updates.json",dataType:"json",fn:function(e,r,n){var t=["addons","helper-sig@savefrom.net","updates",0];if(e)for(var o=0,a=t.length;o<a;o++){if(!e[t[o]])return null;e=e[t[o]]}return e&&e.version?e.version:null}},opera:{url:"opera/update.json",dataType:"json",fn:function(e,r,n){return e&&e.version?e.version:null}},operaChromium:{url:"opera/update.json",dataType:"json",fn:function(e,r,n){return e&&e.version?e.version:null}},safari:{url:"safari/update.plist",dataType:"xml",fn:function(e,r,n){if(n.responseText){var t=n.responseText.search(/\<key\>\s*CFBundleShortVersionString\s*\<\/key>/i);if(t>0){var o=n.responseText.substr(t).match(/\<string\>\s*([\d\.]+)/i);if(o&&o[1])return o[1]}}return null}},userjs:{url:"chrome/helper.meta.js",dataType:"text",fn:function(e,r,n){if(n.responseText){var t=n.responseText.match(/@version\s+([\d\.]+)/i);if(t&&t[1])return t[1]}}}},formatBrowserName:function(e){var r={chromelite:"chrome",chameleon:"chrome",chromium:"chrome",ff:"firefox","ff-sf":"firefox","opera-chromium":"operaChromium","opera-webkit":"operaChromium",yandex:"operaChromium"};return r[e]?r[e]:0===e.indexOf("userjs-")?"userjs":e},getLast:function(e,r){if(!e)return r(null,e,n);var n=this.formatBrowserName(e.toLowerCase()),o=this.config[n];if(!o)return r(null,e,n);t.ajax({url:this.url+o.url,data:{rnd:(new Date).getTime()+Math.random()},dataType:o.dataType,crossDomain:!0}).then((t,a,s)=>{var i=o.fn(t,a,s),u=s.getResponseHeader("Last-Modified");r(i,e,n,u)}).catch(e=>_sf.debug&&console.error(e))},stringToArray:function(e){var r=e.match(/^(\d+)(?:\.(\d+))?/);if(!r)return null;var n=[(0,o.default)(r[1])];return r.length>2&&n.push((0,o.default)(r[2])),n},compare:function(e,r){return e=this.stringToArray(e),r=this.stringToArray(r),null===e?null===r?0:-1:null===r?1:e[0]!=r[0]?e[0]<r[0]?-1:1:1==e.length?1==r.length?0:-1:1==r.length?1:e[1]!=r[1]?e[1]<r[1]?-1:1:0}}},2396:function(e){e.exports=window.$}},function(e){e.O(0,[4121],function(){return e(e.s=7354)}),e.O()}]);
+$(document).on('extension-query', function(event){
+  try
+  {
+    var node = event.target;
+    if (!node || node.nodeType != Node.TEXT_NODE)
+      return;
+
+    var json = $.parseJSON(node.nodeValue);
+    node.parentNode.removeChild(node);
+
+    switch(json.msg)
+    {
+      case 'setBrowserExtension':
+        setBrowserExtension(json.params);
+        break;
+
+      case 'replaceAjaxResult':
+        var btn = document.getElementById(json.btn);
+        sf.result.replaceAjaxResult(json.data, true, true, btn);
+        break;
+
+      case 'showVideoResult':
+        sf.finishRequest(true);
+        sf.videoResult.show(json.video);
+        break;
+    }
+  }
+  catch(err){}
+}, false);
+
+
+function setBrowserExtension(params)
+{
+  if(!params || !params.id || !params.version)
+    return;
+
+  sf.extension.id = params.id;
+  sf.extension.version = params.version;
+  _sf.helper.setExtensionParameters(params);
+
+  var msgCookieName = 'browser_ext_update_msg',
+      cookieName = 'browser_ext',
+      cookieValue = params.id + ' ' + params.version;
+
+  if(!params.enable || params.enable == '0')
+    cookieValue += ' - disabled';
+
+  window.setTimeout(function(){
+    if(window.ga)
+      window.ga('set', 'dimension2', cookieValue);
+  }, 1000);
+
+  if(!sf.cookie.get(cookieName))
+  {
+    sf.cookie.set(cookieName, cookieValue, 1, '.savefrom.net');
+  }
+
+  function setCookie() {
+    sf.cookie.set(msgCookieName, '1', 1, '.savefrom.net');
+  }
+
+  if (sf.extension.id != 'chameleon' && sf.extension.version && !sf.cookie.get(msgCookieName)) {
+    extensionVersion.getLast(params.id, function (version, browser, browserName, date) {
+      if(!version)
+        return;
+
+      if(extensionVersion.compare(version, sf.extension.version) > 0)
+      {
+        if(date)
+        {
+          date = new Date(date);
+          if(date && date.getFullYear() > 2012)
+          {
+            var now = new Date();
+            if(now.getTime() - date.getTime() < 86400000)
+              return;
+          }
+        }
+
+        var updateUrl = '/user.php?utm_source=savefrom&utm_medium=topline&utm_campaign=update_extension';
+        var updateBtn = '<a href="' + updateUrl + '" class="button" target="_blank">Update</a>';
+        var msg = "Your version of &quot;SaveFrom.net helper&quot; browser extension is outdated and it could work improperly {button}";
+        msg = msg.replace(/\{version\}/i, sf.extension.version);
+        msg = msg.replace(/\{button\}/i, ' &nbsp; ' + updateBtn);
+        msg = '<img src="/img/extension/icon_24.png" alt=""> &nbsp; ' + msg;
+
+        setTimeout(function(){
+          if(window.ga)
+            ga('send', 'event', 'topline', 'show', 'update_extension');
+
+          showMessage(msg, setCookie);
+        }, 2000);
+      }
+    });
+  }
+}
+</script>
+   <!--MAIN FORM CLEAR-->
+      <script src="/build/js/savefrom.js?h=991a1160.js"></script>   <script>
+     (function () {
+       if (!window.sf || !window.jQuery) {
+         var div = document.createElement('div');
+         var jsErrorBlock = '<div class="wrapper"><div class="b-info b-js-error"><p class="t-sf-logo">Something went wrong. Please, try again.</p><button class="btn_no-border green-btn-3 js-refresh-page" type="button" onClick="window.location.reload();">Refresh</button></div></div>';
+
+         div.innerHTML = jsErrorBlock;
+
+         window.onload = function () {
+           var errorPlacement = document.querySelector('.downloader-2-part2');
+           var parentErrorPlacement = errorPlacement.parentNode;
+
+           parentErrorPlacement.insertBefore(div, errorPlacement.nextSibling);
+
+           _ga('create', 'UA-7055055-62', 'savefrom.net', 'jsError');
+           _ga('jsError.send', 'event', 'main-page', 'error-window-show', 'TRUE');
+           _ga('jsError.send', 'event', 'main-page', 'sf-ind-error', '');
+         }
+       }
+
+       if (!window.jQuery) {
+         _ga('jsError.send', 'event', 'main-page', 'jquery-error', '');
+       }
+     })();
+   </script>
+   <script>
+     sf.setLanguage({"lang":"en","wait":"Please wait","result":"Result","download":"Download","startDownload":"Start download","copy":"Copy","playerPlay":"Play","playerStop":"Stop","link":"Link","title":"Title","file":"File","size":"Size","hosting":"Hosting","information":"Information","source":"Source","duration":"Duration","more":"More","multiMore":"Find more links","linkNotFound":"The download link not found.","pluralSeconds":["second","seconds"],"pluralParts":["part","parts"],"findMediaLinks":"Find links to media files","fileInfoTitle":"Display file information","copyLinkSuccess":"The download link is copied to the clipboard.","copyLinkFail":"Unable to copy the link to the clipboard.","copyLinksSuccess":"The download links are copied to the clipboard.","copyLinksFail":"Unable to copy the links to the clipboard.","flashPlayerRequired":"Perhaps you do not have <a href=\"https:\/\/get.adobe.com\/flashplayer\/\" rel=\"nofollow\" target=\"_blank\">Adobe Flash Player<\/a> installed.","dQueueError":"Unable to start downloading the file","dQueueContinue":"Continue downloading the remaining files?","dQueueYes":"Continue","dQueueNo":"Stop","tblHdrDownload":"Download links","tblHdrInformation":"Information","tblHdrFile":"File","tblHdrSize":"Size","error1":"Error: URL not specified.","error2":"Error: invalid URL specified.","error3":"Error: code not specified.","error4":"Please specify what to search.","error5":"Please specify where to search.","error20":"Error: %s element not found.","player_err1":"To view this video, you need to get the download links.","request_err1":"Failed to make the request. Please try again.","request_err2":"Failed to make the request.","notEnoughPoints1":"Not enough points to download this file","notEnoughPoints2":"You do not have enough points to download selected files","allSites":"all popular websites","helper_lite":"Helper","tryAnother":"Try downloading another file.","video:tryAnother":"Try downloading another video.","offer":"Install {offer} and download files from any {service} page.","video:offer":"Install {offer} and download videos from any {service} page.","errorMessages":{"page not found":"The link is invalid or the page has been deleted.","restricted access":"Unfortunately, {service} has restricted access to this page.","page without files":"We were unable to find files on this page.","video:page without files":"We were unable to find videos on this page.","private page":"Unfortunately, we cannot download files from a user's personal pages.","video:private page":"Unfortunately, we cannot download videos from a user's personal pages.","video:user in blacklist":"Unfortunately, we cannot download files from this user.","link is not supported":"The link is not supported"},"videoDownloadIssue":"Why is the video playing instead of downloading on SaveFrom?","downloadHint":"To download a video: <b>Right Click -> Save as...<\/b> or In new window, press <b>\"CTRL + S\"<\/b> to save video.","form_preloader_text":"Processing the link to download. Stay on the page.","goBack":"Go back","submit":"Submit","captchaSuccessMessage":"The code has been verified.","captchaErrorMessage":"An error has occurred. Please try again.","installHelper":"Install SaveFrom.net helper","helperFull":"SaveFrom.net helper","installUvd":"Install Ummy Video Downloader","recommendProduct":{"helper":"We recommend you to install <a href=\"{href}\">SaveFrom.net helper extension<\/a> to download from <b>{service}<\/b> in 1 click.","televzr":"We recommend you to install <a href=\"{href}\">Televzr Downloader<\/a> to download from <b>{service}<\/b> in 1 click."}});
+     sf.linksListToken = "#__savefrom.net_links__";
+     sf.jsonToken = "#json#";
+     sf.allowedHosts = [];
+   </script>
+   <script src="/build/js/mainForm.js?h=f018032f.js"></script>   <script>
+
+     try {
+       localStorage.removeItem('video_history');
+     } catch (error) {
+     }
+
+     $('body').one('submit', '.sf-form', function () {
+       sf.videoPlayerHTML5.loadLibraries();
+     });
+   </script>
+   <!--FORM CLEAR-->
+   <script src="/build/js/mainFormOutput.js?h=43518af0.js"></script>   <script>
+     mainFormOutput("Enter the URL");
+   </script>
+   <script src="/build/js/jsTemplates.js?h=b3c2a44c.js" rel="nofollow"></script>   
+   <script>
+     appendJsTemplates(
+       {"install":"Install","more":"More","ext_download_in_1_click":"Download from {{:service}} in one click","vdp_download_audio_video":"Use <a href=\"{{:href}}\" class=\"ga_track_events\" target=\"_blank\" data-ga-event=\"{{:event_attr}}\">Video&nbsp;Downloader&nbsp;Pro<\/a> to save video and audio from this page","get_televzr_banner_title":"Get Televzr app","get_televzr_banner_text":"To download from 700+ resources","get_televzr_banner_learn_more":"Learn more","ext_recommend_use_helper":"We recommend you to install <a href=\"{{:href}}\" class=\"ga_track_events bold\" target=\"_blank\" data-ga-event=\"{{:event_attr}}\">SaveFrom.net helper extension<\/a> to download from <b>{{:service}}<\/b> in&nbsp;1&nbsp;click.","ext_recommend_use_helper_ff":"Install the <a target=\"_blank\" href=\"{{:href2}}\">FireFox mobile<\/a> browser along with the <a target=\"_blank\" href=\"{{:href}}\" class=\"ga_track_events bold\" target=\"_blank\" data-ga-event=\"{{:event_attr}}\">SaveFrom.net helper extension<\/a> to download from <b>{{:service}}<\/b> in one click","ext_recommend_use_helper_yb":"Install <a target=\"_blank\" href=\"{{:href}}\" class=\"ga_track_events bold\" target=\"_blank\" data-ga-event=\"{{:event_attr}}\">Yandex Browser<\/a> with  SaveFrom.net helper extension and download from <b>{{:service}}<\/b> in&nbsp;1&nbsp;click","televzr_recommend_use_televzr":"We recommend you to install <a href=\"{{:href}}\" class=\"ga_track_events bold\" target=\"_blank\" data-ga-event=\"{{:event_attr}}\">Televzr Downloader<\/a> to download from <b>{{:service}}<\/b> in&nbsp;1&nbsp;click.","copy_link":"Copy and paste the link into your browser address bar or download manager:","copy":"Copy"}     );
+   </script>
+   <!--/FORM CLEAR-->
+   
+<script src="/build/js/basicMetricsTracking.js?h=9d72a5c6.js"></script><script src="/build/js/experimentLoader.js?h=3c4f1c2b.js"></script>
+   <script>
+     $(function () {
+       const timeoutDuration = _sf.mobile ? 0 : 100;
+       setTimeout(function () {
+         window.newMainForm.setForm();
+       }, timeoutDuration);
+     });
+   </script>
+   <script>
+     if (_sf.app) {
+       $('.sf-form input[name="app"]').val(_sf.app);
+     }
+     if (_sf.os.name == 'iOS' && _sf.browser.inApp) {
+       $('.sf-form').append($('<input type="hidden" name="ios_app_mode" value="1">'));
+     }
+     $('.sf-form').append($('<input type="hidden" name="country" value="' + (_sf.country || '') + '">'));
+     $('.sf-form').append($('<input type="hidden" name="os" value="' + (_sf.os.name || '') + '">'));
+     $('.sf-form').append($('<input type="hidden" name="browser" value="' + (_sf.browser.name || '') + '">'));
+     $('.sf-form').append($('<input type="hidden" name="channel" value="' + (_sf.channel || '') + '">'));
+   </script>
+   <!--/MAIN FORM CLEAR-->
+   <!--ARTICLE-->
+      
+   <!--CONTENT END-->
+        <script src="/build/js/h1HeaderModifier.js?h=735c909a.js"></script>      <!--FOOTER-->
+   <script>
+     $(function () {
+       // menu
+       $('body').on('click', 'header .menu-btn', function () {
+         $('#nav_top').toggleClass('active');
+       });
+     });
+
+     $('.spoiler-box:not(.open)').hide();
+   </script>
+
+   <script>
+     $('body').on('click sendstats', 'a.ga_track_events', function (event) {
+       gaHandler.trackNode(this);
+     });
+   </script>
+   <script src="/build/js/lang_selector.js?h=b29bc798.js"></script>
+   <script>
+(function() {
+  if (!_sf.app || typeof sfApp === 'undefined') {
+    return;
+  }
+
+  $('#sf_form').append($('<input type="hidden" name="app"/>').val(_sf.app));
+  $('body').addClass('sfApp').on('click', '.link.link-download', function(e){
+    var url = $(this).attr('href');
+    if(!url || url.search(/^https?:\/\//i) == -1)
+      url = this.getAttribute('data-copy');
+
+    var fileName = this.getAttribute('download') || '';
+    if (sfApp.download(url, fileName)) {
+      e.preventDefault();
+    }
+  });
+
+  $(function(){
+    var firstrunKey = _sf.app + '-firstrun';
+    var firstrunValue;
+
+    try {
+      firstrunValue = localStorage.getItem(firstrunKey);
+
+      if (!firstrunValue) {
+        localStorage.setItem(firstrunKey, '1');
+      }
+    } catch (error) {}
+
+    if (!firstrunValue && window.gaHandler) {
+      window.gaHandler.track('send;event;firstrun;' + _sf.app + ';' + sfApp.version());
+    }
+  });
+})();
+</script>
+   
